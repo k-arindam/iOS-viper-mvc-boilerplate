@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SwiftData
+import IOSBCamera
 
 @main
 struct IOSBoilerplateApp: App {
@@ -22,6 +23,8 @@ struct IOSBoilerplateApp: App {
             fatalError("Could not create ModelContainer: \(error)")
         }
     }()
+    
+    let camera = CameraRoute.build()
 
     var body: some Scene {
         WindowGroup {

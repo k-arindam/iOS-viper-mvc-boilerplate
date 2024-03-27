@@ -99,6 +99,9 @@
 		113328952BB48EA800791C18 /* IOSBoilerplate */ = {
 			isa = PBXGroup;
 			children = (
+				113328C82BB4A12E00791C18 /* Controllers */,
+				113328C72BB4A12700791C18 /* Views */,
+				113328C62BB4A12000791C18 /* Models */,
 				113328962BB48EA800791C18 /* IOSBoilerplateApp.swift */,
 				113328982BB48EA800791C18 /* ContentView.swift */,
 				1133289A2BB48EA800791C18 /* Item.swift */,
@@ -132,6 +135,27 @@
 				113328B62BB48EA800791C18 /* IOSBoilerplateUITestsLaunchTests.swift */,
 			);
 			path = IOSBoilerplateUITests;
+			sourceTree = "<group>";
+		};
+		113328C62BB4A12000791C18 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		113328C72BB4A12700791C18 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		113328C82BB4A12E00791C18 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
